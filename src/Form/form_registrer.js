@@ -17,6 +17,9 @@ import AwesomeAlert from 'react-native-awesome-alerts';
 function Input(props) {
     const [complete, setComplete] = useState(true)
     let colores = config.colores
+    if(props.valor ===8) {
+        props.onChangeText(props.value, props.valor)
+    }
     return(
         <View style={{width: "95%", alignSelf: 'center', marginTop: '3%'}}>
             <Text style={{fontSize: 16}}>{props.title}</Text>
@@ -141,20 +144,20 @@ function RegistrerForm({navigation}) {
                 title={message}
                 titleStyle={{textAlign: 'center'}}
                 contentStyle={{width: '100%'}}
-                closeOnTouchOutside={true}
+                closeOnTouchOutside={false}
                 closeOnHardwareBackPress={false}
                 confirmButtonStyle={{backgroundColor: colores.principal, elevation: 5}}
                 customView={
                     <View>
                         {register?
                             <View style={{flexDirection: 'row',}}>
-                                <View style={{width: '60%'}}>
+                                <View style={{width: '55%'}}>
                                     <Text>Nombre: {register.nombre}</Text>
                                     <Text>NIT: {register.nit}</Text>
                                     <Text>Direccion: {register.direccion}</Text>
-                                    <Text>Codigo: {register.codigo.toUpperCase()}</Text>
+                                    <Text>Código: {register.codigo.toUpperCase()}</Text>
                                 </View>
-                                <View style={{width: '40%'}}>
+                                <View style={{width: '45%'}}>
                                     <Text>Marca: {register.marca}</Text>
                                     <Text>Cantidad: {register.cantidad}</Text>
                                     <Text>Precio: {register.precio}</Text>
@@ -230,15 +233,15 @@ function RegistrerForm({navigation}) {
                         title="Dirección"
                         valor={3}
                         onChangeText={setForm}
-                        placeholder="Direccion a.v. Zona"
+                        placeholder="Dirección a.v. Zona"
                         type="default"
                     />
                 </View>
                 <Text style={styles.title}>{toggleCheckBox1? 'Detalle de los productos vendidos': "Detalle de los productos comprados"}</Text>
                 <View style={{width: '100%', marginBottom: '5%'}}>
                     <Input 
-                        title="Codigo de producto"
-                        placeholder="Codigo"
+                        title="Código de producto"
+                        placeholder="Código"
                         onChangeText={setForm}
                         type="default"
                         valor={4}
@@ -257,7 +260,7 @@ function RegistrerForm({navigation}) {
                                 valor={6}
                                 onChangeText={setForm}
                                 value="0"
-                                type="default"
+                                type="numeric"
                             />
                         </View>
                         <View style={{width: "48%", alignSelf: 'center'}}>
@@ -266,7 +269,7 @@ function RegistrerForm({navigation}) {
                                 valor={7}
                                 onChangeText={setForm}
                                 value="0"
-                                type="default"
+                                type="numeric"
                             />
                         </View>
                     </View>
@@ -274,8 +277,8 @@ function RegistrerForm({navigation}) {
                         title="Monto total a pagar"
                         valor={8}
                         onChangeText={setForm}
-                        value={cantidad && precio? parseInt(cantidad) + parseInt(precio) :`${moneda} 0.00`}
-                        type="default"
+                        value={cantidad && precio? moneda + (parseInt(cantidad) * parseInt(precio)).toString() + ".00" :`${moneda} 0.00`}
+                        type="numeric"
                         width="48%"
                     />
                     <Input 
@@ -297,7 +300,7 @@ function RegistrerForm({navigation}) {
                                     codigo: codigo,
                                     marca: marca,
                                     cantidad: cantidad,
-                                    precio: precio,
+                                    precio: moneda + precio + ".00",
                                     total: total,
                                     comentario: comentario? comentario: ""
                                 }

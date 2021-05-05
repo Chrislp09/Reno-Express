@@ -14,8 +14,8 @@
         "cod": "+502 "
     },
     "formulario": {
-        "tite": "Tipo de transaccion",
-        "message_complete": "Transaccion realizada con extito",
+        "tite": "Tipo de transacción",
+        "message_complete": "Transacción realizada con éxito",
         "message_error": "",
         "tipo_transaccion": [
             {   
@@ -36,11 +36,11 @@
             "marca": "LEGO",
             "categoria_producto": "Educativo",
             "codigo_producto": "A0001",
-            "precio_unitario": "110",
+            "precio_unitario": "110.00",
             "descripccion_producto": "Los juguetes preferidos están aquí. Juegos de LEGO, Fisher Price, muñecas Barbies, figuras de acción. ¡Tenemos toda la diversión en un solo lugar!",
             "existencia": 1600,
             "fecha_abastecimiento": "14-02-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 200,
             "imagen": ""
         },
         {
@@ -48,11 +48,11 @@
             "marca": "Fisher Price",
             "categoria_producto": "Educativo",
             "codigo_producto": "A0002",
-            "precio_unitario": "150",
+            "precio_unitario": "150.00",
             "descripccion_producto": "Compra la colección entera de juguetes de Fisher-Price® para bebés, niños y niñas y ¡encuentra el regalo perfecto para cualquier ocasión! ",
             "existencia": 2000,
             "fecha_abastecimiento": "06-04-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 400,
             "imagen": ""
         },
         {
@@ -60,11 +60,11 @@
             "marca": "PlayDoh",
             "categoria_producto": "Creatividad",
             "codigo_producto": "A0003",
-            "precio_unitario": "100",
+            "precio_unitario": "100.00",
             "descripccion_producto": "Play-Doh es la marca comercial de una masa utilizada por los niños para realizar proyectos de arte y manualidades, ya sea en su hogar o en la escuela. ",
             "existencia": 1400,
             "fecha_abastecimiento": "10-02-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 100,
             "imagen": ""
         },
         {
@@ -72,11 +72,11 @@
             "marca": "HotWeels",
             "categoria_producto": "Vehiculos",
             "codigo_producto": "A0004",
-            "precio_unitario": "200",
+            "precio_unitario": "200.00",
             "descripccion_producto": "Consigue los vehículos Hot Wheels de la colección que más te gusta y hace realidad la diversión de tus hijos.",
             "existencia": 678,
             "fecha_abastecimiento": "17-04-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 120,
             "imagen": ""
         },
         {
@@ -84,11 +84,11 @@
             "marca": "Nerf",
             "categoria_producto": "Aire Libre",
             "codigo_producto": "A0005",
-            "precio_unitario": "300",
+            "precio_unitario": "300.00",
             "descripccion_producto": "Esto es Nerf Nation, explora todos los lanzadores y accesorios Nerf, incluidos lanzadores de dardos, lanzadores de agua y lanzadores láser",
             "existencia": 398,
             "fecha_abastecimiento": "29-03-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 200,
             "imagen": ""
         },
         {
@@ -96,11 +96,11 @@
             "marca": "Hasbro",
             "categoria_producto": "Figuras de acciòn",
             "codigo_producto": "A0006",
-            "precio_unitario": "150",
+            "precio_unitario": "150.00",
             "descripccion_producto": "Amplio surtido en juguetes Hasbro para todas las edades. Juegos de mesa, figuras de acción, artículos de plastilina, etc., al mejor precio.",
             "existencia": 700,
             "fecha_abastecimiento": "25-03-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 400,
             "imagen": ""
         },
         {
@@ -108,11 +108,11 @@
             "marca": "Mattel",
             "categoria_producto": "Manipulativos",
             "codigo_producto": "A0007",
-            "precio_unitario": "250",
+            "precio_unitario": "250.00",
             "descripccion_producto": "Encuentra Juguetes, Muñecas y Marcas favoritas de los niños de MATTEL: Superheroes, Barbies, Fisherprice, Hotwhells, Cars, Megablok y mucho mas",
             "existencia": 426,
             "fecha_abastecimiento": "15-01-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 110,
             "imagen": ""
         },
         {
@@ -120,11 +120,11 @@
             "marca": "Marvel",
             "categoria_producto": "Muñecos",
             "codigo_producto": "A0008",
-            "precio_unitario": "90",
+            "precio_unitario": "90.00",
             "descripccion_producto": "Diviértete con tus amigos con los juguetes de Marvel que tenemos en shopDisney. Compra tus favoritos en nuestra tienda online con devolución gratis",
             "existencia": 250,
             "fecha_abastecimiento": "01-02-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 200,
             "imagen": ""
         },
         {
@@ -132,11 +132,11 @@
             "marca": "Bandai",
             "categoria_producto": "Coleccionables",
             "codigo_producto": "A0009",
-            "precio_unitario": "290",
+            "precio_unitario": "290.00",
             "descripccion_producto": "Bandai es una juguetería en México con marcas de juguetes de Dragon Ball, Shopkins, Grossery Gang, Tamagotchi, Ladybug, Peppa Pig, McFarlane y muchos .",
             "existencia": 890,
             "fecha_abastecimiento": "20-03-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 400,
             "imagen": ""
         },
         {
@@ -144,23 +144,23 @@
             "marca": "Monopoly",
             "categoria_producto": "Juegos de mesa",
             "codigo_producto": "A0010",
-            "precio_unitario": "50",
+            "precio_unitario": "50.00",
             "descripccion_producto": "Encuentra una gran variedad de juguetes para niños y niñas de todas las edades. ¡Enamórate y escoge lo mejor para tus pequeños!",
             "existencia": 600,
             "fecha_abastecimiento": "30-04-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 300,
             "imagen": ""
         },
         {
             "id": "10",
             "marca": "Disney",
-            "categoria_producto": "Fantasia",
+            "categoria_producto": "Fantasía",
             "codigo_producto": "A0011",
-            "precio_unitario": "75",
+            "precio_unitario": "75.00",
             "descripccion_producto": "Con los juguetes de tus personajes favoritos de Disney tus tardes se pasarán volando. Compra en nuestra tienda online con la opción de devoluciones gratis.",
             "existencia": 400,
             "fecha_abastecimiento": "03-05-2021",
-            "cantidad_adiquirida_ultimo_abastecimiento": "",
+            "cantidad_adiquirida_ultimo_abastecimiento": 250,
             "imagen": ""
         }
     ]

@@ -47,8 +47,8 @@ function Home(props) {
         }
         if(!history) {
             data.map((item, index) => {
-                newList.push(item.marca)
-                setHistory(newList)
+                setHistory(item.marca)
+                console.log(history, 'HISTORIAL -----')
             })
         }
     })
@@ -99,13 +99,13 @@ function Home(props) {
                         </TouchableOpacity>
                         {info && <View>
                             {orderText("Marca", info.marca)}
-                            {orderText("Categoria", info.categoria_producto)}
+                            {orderText("Categoría", info.categoria_producto)}
                             {orderText("Codigo", info.codigo_producto)}
                             {orderText("Precio unitario", moneda + info.precio_unitario)}
                             {orderText("Fecha de abastecimiento", info.fecha_abastecimiento)}
                             {orderText("Cantidad adquirida", info.cantidad_adiquirida_ultimo_abastecimiento)}
                             {orderText("Total de existencias", info.existencia)}
-                            {orderText("Promedio precio unitario", info.existencia)}
+                            {orderText("Promedio precio unitario", moneda + info.precio_unitario)}
                         </View>}
                     </View>
                 } 

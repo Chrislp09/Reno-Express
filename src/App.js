@@ -41,7 +41,7 @@ export default function AppLayout() {
             >
                 {/* <Drawer.Screen name="Splash" component={Splash} /> */}
                 <Drawer.Screen name="Inventario" component={Home}/>
-                <Drawer.Screen name="Transacciones" component={RegistrerForm}/>
+                <Drawer.Screen name="Transacción" component={RegistrerForm}/>
             </Drawer.Navigator>
         </NavigationContainer>
     )
