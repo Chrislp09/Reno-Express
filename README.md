@@ -37,4 +37,4 @@
 ## Puntos no realizados (Motivo)
 La falta de tiempo fue un gran impedimento ya que habia previsto realizar mas funcionalidades pero se me complico implementarlo, el nivel de dificultad de la prueba no era tan alto asi que si es posible terminar el desarrollo pero por el tiempo requerido dificultaba la finalizacion.
 
-## NOTA: El apk release esta en la ruta android/app/release/app-release.apk
+#### NOTA: El apk release esta en la ruta android/app/release/app-release.apk
