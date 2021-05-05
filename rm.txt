@@ -1,0 +1,3 @@
+KEY PARA GENERAR APK KeyStore.jks
+	Alias: KeyApp
+	Pasword: 123key
